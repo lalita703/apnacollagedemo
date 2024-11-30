@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="test_Class.Testbox_test">
+        <methods>
+          <include name="getLaunchUrl"/>
+          <include name="clickontextbox"/>
+          <include name="clickonpratice"/>
+          <include name="clickonclose"/>
+          <include name="clickonsubmit"/>
+          <include name="validate"/>
+          <include name="clickonelement"/>
+        </methods>
+      </class> <!-- test_Class.Testbox_test -->
+      <class name="test_Class.login_Test">
+        <methods>
+          <include name="geturlofthepage"/>
+          <include name="getTitleofthepage"/>
+          <include name="getLauncUrl"/>
+          <include name="clickonclose"/>
+        </methods>
+      </class> <!-- test_Class.login_Test -->
+      <class name="test_Class.Cheakbox_text">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="clickonleptop"/>
+          <include name="clickonmobile"/>
+          <include name="clickonelement"/>
+          <include name="clickonpractice"/>
+          <include name="getLaunchUrl"/>
+          <include name="clickoncheakbox"/>
+          <include name="clickonclose"/>
+          <include name="resultAnalysis"/>
+        </methods>
+      </class> <!-- test_Class.Cheakbox_text -->
+      <class name="test_Class.Webtable_test">
+        <methods>
+          <include name="clickonfilldetails"/>
+          <include name="clickonclose"/>
+          <include name="getLaunchUrl"/>
+          <include name="clickonpractice"/>
+          <include name="clickonelement"/>
+        </methods>
+      </class> <!-- test_Class.Webtable_test -->
+      <class name="test_Class.Rediobuttons_test">
+        <methods>
+          <include name="clickonimpressive"/>
+          <include name="clickonpractice"/>
+          <include name="clickonRediobtn"/>
+          <include name="clickonelement"/>
+          <include name="clickonyesbtn"/>
+          <include name="clickonno"/>
+          <include name="getLaunchUrl"/>
+          <include name="clickonclose"/>
+        </methods>
+      </class> <!-- test_Class.Rediobuttons_test -->
+      <class name="test_Class.Links_test">
+        <methods>
+          <include name="clickonmoved"/>
+          <include name="clickondemopage"/>
+          <include name="getLaunchUrl"/>
+          <include name="clickonForbidden"/>
+          <include name="clickonUnauthorized"/>
+          <include name="clickonnotFound"/>
+          <include name="clickonlinks"/>
+          <include name="clickonclose"/>
+          <include name="clickonpratice"/>
+          <include name="clickoncreated"/>
+          <include name="clickonnocontent"/>
+          <include name="clickonelement"/>
+          <include name="clickonbadrequest"/>
+        </methods>
+      </class> <!-- test_Class.Links_test -->
+      <class name="test_Class.Buttons_test">
+        <methods>
+          <include name="clickonPractice"/>
+          <include name="clickondoubleclickme"/>
+          <include name="clickonbuttons"/>
+          <include name="getLaunchUrl"/>
+          <include name="clickonclose"/>
+          <include name="clickonrightclickme"/>
+          <include name="clickme"/>
+          <include name="clickonelement"/>
+        </methods>
+      </class> <!-- test_Class.Buttons_test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
